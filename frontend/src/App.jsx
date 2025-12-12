@@ -9,7 +9,6 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <div data-theme="forest" className="min-h-screen">
-     <Navbar/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
