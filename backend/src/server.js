@@ -1,7 +1,9 @@
+import dotenv from "dotenv"
 import express from "express"
+import cors from "cors"
+
 import notesRoutes from "./routes/notesRoutes.js"
 import { connectDB } from "./config/db.js"
-import dotenv from "dotenv"
 import rateLimiter from "./middleware/rateLimiter.js"
 
 dotenv.config()
@@ -13,7 +15,8 @@ app.use("/api/notes", notesRoutes)
 
 
 app.use(express.json())//allows JSOn to be parsed
-// app.use(rateLimiter)
+app.use(rateLimiter)
+app.use(cors())
 //custom middleware
 // app.use((req, res)=> {
 //     console.log("Request sent successfully")

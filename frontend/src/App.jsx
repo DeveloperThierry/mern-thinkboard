@@ -4,7 +4,6 @@ import CreatePage from "./pages/CreatePage";
 import NoteDetailPage from "./pages/NoteDetailPage";
 import { Routes, Route } from "react-router";
 import toast from "react-hot-toast";
-import daisyui from "daisyui";
 import Navbar from "./components/Navbar";
 const App = () => {
   return (
