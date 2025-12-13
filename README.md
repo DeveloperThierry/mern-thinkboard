@@ -1,12 +1,12 @@
 
+
+![view1](/frontend/public/view1.png)
+![view2](/frontend/public/view2.png)
+![view3](/frontend//public/view3.png)
+
 # 💡 MERN ThinkBoard
 
-![Screenshot](/images/file.png)
-
-## 🏆 Project Status & Licensing
-| Status | License | Tech Stack |
-| :---: | :---: | :---: |
-| [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/mern-thinkboard/actions) | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md) | [![Tech Stack: MERN](https://img.shields.io/badge/Stack-MERN-red)](https://www.mongodb.com/) |
+[![Tech Stack: MERN](https://img.shields.io/badge/Stack-MERN-red)](https://www.mongodb.com/) 
 
 ---
 
@@ -123,5 +123,5 @@ This project is licensed under the MIT License. This means you are free to use, 
 ---
 
 ## ❓ Support
-
+Thanks to FreeCodeCamp for guidance throughout duration of project.
 If you have any questions, encounter a bug, or need help setting up the project, please open an issue on the GitHub repository.
