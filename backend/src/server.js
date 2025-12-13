@@ -11,12 +11,12 @@ const app = express()
 const PORT = process.env.PORT || 5050
 connectDB();
 
+app.use(cors())
+app.use(express.json())//allows JSOn to be parsed
+app.use(rateLimiter)
 app.use("/api/notes", notesRoutes)
 
 
-app.use(express.json())//allows JSOn to be parsed
-app.use(rateLimiter)
-app.use(cors())
 //custom middleware
 // app.use((req, res)=> {
 //     console.log("Request sent successfully")
